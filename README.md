@@ -1,68 +1,62 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# Mankato Metal Club Website Documentation
 
-## Available Scripts
+## Greetings!
 
-In the project directory, you can run:
+### This documentation will go over a number of items:
 
-### `npm start`
+- Purpose of the Website
+- User privileges on the site
+- How Leaders can make changes to the site
+- Technologies Used
 
-Runs the app in the development mode.<br>
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+### Purpose
 
-The page will reload if you make edits.<br>
-You will also see any lint errors in the console.
+- The purpose of this site is to look ahead to future Metal Club (referred to as the Club) meeting topics and to help set up possible concert opportunities with fellow students.
 
-### `npm test`
+- There will be a monthly calendar with Club meeting dates as well as upcoming
+concert dates posted by current students.
 
-Launches the test runner in the interactive watch mode.<br>
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+- A forum for sharing music that students want others to listen to or discuss
+different happenings in the music industry, such as upcoming albums or concerts
+or band member mishaps.
 
-### `npm run build`
+- There is a possibilty of the inclusion of a Listing area for student-run bands
+who are either looking for members or venue opportunities.
 
-Builds the app for production to the `build` folder.<br>
-It correctly bundles React in production mode and optimizes the build for the best performance.
+### User Privileges
 
-The build is minified and the filenames include the hashes.<br>
-Your app is ready to be deployed!
+- Users will be asked to sign in with their current MSU email.
+    - The site will be for public use. However, if the user does not have an MSU email,
+    they will remain anonymous and will not be able to add to or edit any part of the site.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+    - Non-anonymous users will be able to post to the Forum or Listing area, or add an upcoming concert to the calendar.
 
-### `npm run eject`
+    - The original founders and future leadership of the Club will have Administrator rights. These rights include:
+        - The ability to suspend a user from posting to the Forum or Listing area if
+        there is toxic behavior or spam.
+        - Capability of removing or creating new Administrator users.
+            - **THIS SHOULD ONLY BE USED IF A CURRENT ADMINISTRATOR IS STEPPING DOWN**
+            **OR IF NEW CLUB LEADERS HAVE BEEN NAMED**
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+### How to make changes to the site
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+- The current Leadership of the Club will be able to edit the website if they so choose.
+    - **THIS MUST BE DONE ONLY WITH A UNAMINOUS DECISION FROM ALL LEADERSHIP MEMBERS**
+    - Current Leadership that wish to make changes to the site must have a GitHub account.
+    - As Leadership is passed, the new Club Leaders must be given the ability to edit the repository on their local machines before old Leaders relinquish their ability to edit said repository.
 
-Instead, it will copy all the configuration files and the transitive dependencies (Webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+### Technologies Used
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/code-splitting
-
-### Analyzing the Bundle Size
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size
-
-### Making a Progressive Web App
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app
-
-### Advanced Configuration
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/advanced-configuration
-
-### Deployment
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/deployment
-
-### `npm run build` fails to minify
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify
+- JavaScript
+- Node.js
+- Express
+- Nodemon
+- Passport
+- Axios
+- React.js
+- Redux
+- Redux-Sagas
+- React-Redux
+- React-Router
+- React-Router-Dom
+- Material-UI
