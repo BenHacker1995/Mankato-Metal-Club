@@ -1,18 +1,32 @@
-import React, { Component } from 'react';
-import './styles/App.css';
+import React from 'react';
+import {
+  HashRouter as Router,
+  Route,
+  Redirect,
+  Switch,
+} from 'react-router-dom';
 
-class App extends Component {
-  render() {
-    return (
-      <div className="App">
-        <header className="App-header">
-          <p>
-            MSU, Mankato Metal Club
-          </p>
-        </header>
-      </div>
-    );
-  }
-}
+import Landing from './components/Landing/Landing.js';
+
+import './styles/main.css';
+
+const App = () => (
+  <div className="bg">
+    <Router>
+      <Switch>
+        <Redirect exact from="/" to="/home" />
+        <Route
+          path="/home"
+          component={Landing}
+        />
+
+        {/* OTHERWISE (no path!) */}
+        <Route render={() => <h1>404</h1>} />
+
+      </Switch>
+    </Router>
+  </div>
+);
 
 export default App;
+
