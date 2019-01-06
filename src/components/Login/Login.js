@@ -68,7 +68,7 @@ class Login extends Component {
 
   render() {
     return (
-      <div>
+      <div className="fullscreen-bg">
         { this.renderAlert() }
         <Paper className='paper' TransitionComponent={this.TransitionUp}>
           <h1>Login</h1>

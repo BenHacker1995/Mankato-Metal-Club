@@ -8,6 +8,7 @@ import {
 
 import Landing from './components/Landing/Landing.js';
 import Login from './components/Login/Login.js';
+import Home from './components/Home/Home.js';
 
 import './styles/main.css';
 
@@ -17,12 +18,16 @@ const App = () => (
       <Switch>
         <Redirect exact from="/" to="/home" />
         <Route
-          path="/home"
+          path="/landing"
           component={Landing}
         />
         <Route
           path="/login"
           component={Login}
+        />
+        <Route
+          path="/home"
+          component={Home}
         />
 
         {/* OTHERWISE (no path!) */}
