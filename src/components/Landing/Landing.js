@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import { Link } from 'react-router-dom';
 import { connect } from 'react-redux';
 
 import { USER_ACTIONS } from '../../redux/actions/userActions';
@@ -17,7 +18,7 @@ class Landing extends Component {
         return (
           <div id="fullscreen-bg-video">
             <div className="landing-content">
-              <p className="login-signup">Log In/Sign Up</p>
+              <Link to="/login" className="login-signup">Log In/Sign Up</Link>
               <h1 id="landing-title">Mankato Metal Club</h1>
             </div>
           </div>

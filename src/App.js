@@ -7,6 +7,7 @@ import {
 } from 'react-router-dom';
 
 import Landing from './components/Landing/Landing.js';
+import Login from './components/Login/Login.js';
 
 import './styles/main.css';
 
@@ -18,6 +19,10 @@ const App = () => (
         <Route
           path="/home"
           component={Landing}
+        />
+        <Route
+          path="/login"
+          component={Login}
         />
 
         {/* OTHERWISE (no path!) */}
