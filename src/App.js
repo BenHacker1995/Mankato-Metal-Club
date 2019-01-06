@@ -11,7 +11,7 @@ import Landing from './components/Landing/Landing.js';
 import './styles/main.css';
 
 const App = () => (
-  <div className="bg">
+  <div className="fullscreen-bg">
     <Router>
       <Switch>
         <Redirect exact from="/" to="/home" />
