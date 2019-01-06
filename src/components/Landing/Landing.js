@@ -16,9 +16,10 @@ class Landing extends Component {
     render() {
         return (
           <div id="fullscreen-bg-video">
-            {/* <video autoPlay loop id="fullscreen-bg-video" playsInline>
-              <source src={ this.state.videoURL } type="video/mp4"/>
-            </video> */}
+            <div className="landing-content">
+              <p className="login-signup">Log In/Sign Up</p>
+              <h1 id="landing-title">Mankato Metal Club</h1>
+            </div>
           </div>
         );
       }
