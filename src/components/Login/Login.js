@@ -33,7 +33,7 @@ class Login extends Component {
   
   componentWillReceiveProps(nextProps) {
     if (nextProps.user.userName) {
-    //   this.props.history.push('/char');
+      this.props.history.push('/home');
     }
   }
 
@@ -68,9 +68,9 @@ class Login extends Component {
 
   render() {
     return (
-      <div>
+      <div className="fullscreen-bg">
         { this.renderAlert() }
-        <Paper className='paper' TransitionComponent={this.TransitionUp}>
+        <Paper className='paper'>
           <h1>Login</h1>
           <div>
               <TextField
@@ -93,7 +93,7 @@ class Login extends Component {
             <Button
               name="submit"
               value="Log In"
-            //   onClick={ this.getChars }
+              onClick={ this.login }
             >
               Log In
             </Button>
